@@ -3,8 +3,8 @@ import 'package:dart_color_print/dart_color_print.dart';
 main() {
   printInfo("Info should be blue");
   printWarning('Warning should be yellow');
-  printError('Should be red');
-  printSuccess('Should be green');
+  printError('Error should be red');
+  printSuccess('Success should be green');
   printPurple('Should be pruple'); 
   printPink('Should be pink'); 
 }
