@@ -1,17 +1,14 @@
-A library for Dart developers.
-
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+A library for Dart developers that makes it easy to print color to the console.
 
 ## Usage
 
 A simple usage example:
 
 ```dart
-import 'package:dart_color_print/dart_color_print.dart';
+import 'package:color_print/color_print.dart';
 
 main() {
-  var awesome = new Awesome();
+  printInfo('Running program');
 }
 ```
 
@@ -19,4 +16,5 @@ main() {
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+[tracker]: https://github.com/earyzhe/dart_color_print/issues
+# dart_color_print

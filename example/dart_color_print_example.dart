@@ -1,6 +1,10 @@
 import 'package:dart_color_print/dart_color_print.dart';
 
 main() {
-  var awesome = Awesome();
-  print('awesome: ${awesome.isAwesome}');
+  printInfo("Info should be blue");
+  printWarning('Warning should be yellow');
+  printError('Should be red');
+  printSuccess('Should be green');
+  printPurple('Should be pruple'); 
+  printPink('Should be pink'); 
 }
